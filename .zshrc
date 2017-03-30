@@ -1,4 +1,7 @@
 # (d) is default on
+# ref:https://github.com/bpyamasinn/Config/blob/master/.zshrc
+# キーバインド変更あり
+# 色変更あり
 
 # ------------------------------
 # General Settings
