@@ -1,3 +1,5 @@
+" ref: http://qiita.com/mfujimori/items/9fd41bcd8d1ce9170301
+
 " setting
 "文字コードをUFT-8に設定
 set fenc=utf-8
@@ -69,3 +71,5 @@ set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
+" ファイルタイプ系
+autocmd BufNewFile,BufRead *.sage set filetype=python
