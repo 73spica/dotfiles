@@ -73,3 +73,15 @@ nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
 " ファイルタイプ系
 autocmd BufNewFile,BufRead *.sage set filetype=python
+autocmd BufNewFile,BufRead *.ts set filetype=javascript
+
+" クリップボード共有
+set clipboard+=unnamed
+
+" なんか画面が点滅する
+" brewで入れた方つかったらこうなった．以下で解決
+" https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13179199428
+set noerrorbells visualbell t_vb=
+if has('autocmd')
+  autocmd GUIEnter * set visualbell t_vb=
+endif
