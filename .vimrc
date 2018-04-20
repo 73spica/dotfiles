@@ -1,5 +1,10 @@
 " ref: http://qiita.com/mfujimori/items/9fd41bcd8d1ce9170301
 
+" .vimrc導入時の文字化け対策
+set encoding=utf-8
+set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+set fileformats=unix,dos,mac
+
 " setting
 "文字コードをUFT-8に設定
 set fenc=utf-8
